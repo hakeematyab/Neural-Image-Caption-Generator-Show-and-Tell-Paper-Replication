@@ -1,3 +1,10 @@
+<!-- PROJECT LOGO -->
+<div align="center">
+  <a href="[https://github.com/hakeematyab/Neural-Image-Caption-Generator-Show-and-Tell-Paper-Replication](https://github.com/hakeematyab/Neural-Image-Caption-Generator-Show-and-Tell-Paper-Replication)">
+    <img src="https://github.com/hakeematyab/AuthentiFeel/assets/88573121/aaed46bd-c47a-4e92-b6e2-f7c067ab13bd" alt="Logo" width="896" height="512">
+  </a>
+</div>
+
 # Show and Tell: A Neural Image Caption Generator - Paper Replication
 Vinyals, Oriol, et al. "Show and tell: A neural image caption generator." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
 
