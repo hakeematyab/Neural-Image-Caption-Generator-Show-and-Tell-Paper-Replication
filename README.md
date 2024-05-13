@@ -11,7 +11,7 @@ Vinyals, Oriol, et al. "Show and tell: A neural image caption generator." Procee
 # 
 
 <!-- RESULTS -->
-## Generated Captions
+## Results
 
 <table>
   <tr>
