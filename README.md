@@ -8,6 +8,60 @@
 # Show and Tell: A Neural Image Caption Generator - Paper Replication
 Vinyals, Oriol, et al. "Show and tell: A neural image caption generator." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
 
+# 
+
+<!-- RESULTS -->
+## Generated Captions
+
+<table>
+  <tr>
+    <td><strong>Image</strong></td>
+    <td><strong>Captions</strong></td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Example 1</strong><br>
+      <img src="https://github.com/hakeematyab/Neural-Image-Caption-Generator-Show-and-Tell-Paper-Replication/assets/88573121/3d83fe70-89d8-468a-84d8-31b7fe24fe62" alt="Example 1 Image" width="300"/>
+    </td>
+    <td>
+      <strong>Actual Caption:</strong> <code>&lt;start&gt; &lt;oov&gt; &lt;oov&gt; to &lt;oov&gt; the image above &lt;end&gt; &lt;oov&gt;</code><br>
+      <strong>Output Caption:</strong> <code>&lt;start&gt; cat laying on top of laptop &lt;end&gt;</code>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Example 2</strong><br>
+      <img src="https://github.com/hakeematyab/Neural-Image-Caption-Generator-Show-and-Tell-Paper-Replication/assets/88573121/03009b1a-65ec-48f3-8c1d-d63d56714263" alt="Example 2 Image" width="300"/>
+    </td>
+    <td>
+      <strong>Actual Caption:</strong> <code>&lt;start&gt; &lt;oov&gt; &lt;oov&gt; slope near &lt;oov&gt; &lt;oov&gt; &lt;end&gt; &lt;oov&gt; &lt;oov&gt;</code><br>
+      <strong>Output Caption:</strong> <code>&lt;start&gt; person that is skiing in the snow &lt;end&gt;</code>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Example 3</strong><br>
+      <img src="https://github.com/hakeematyab/Neural-Image-Caption-Generator-Show-and-Tell-Paper-Replication/assets/88573121/a1e3ddf9-404b-48d0-8239-5480599f0823" alt="Example 3 Image" width="300"/>
+    </td>
+    <td>
+      <strong>Actual Caption:</strong> <code>&lt;start&gt; bus is parked at the bus &lt;oov&gt; &lt;end&gt; &lt;oov&gt;</code><br>
+      <strong>Output Caption:</strong> <code>&lt;start&gt; large red bus on city street &lt;end&gt;</code>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Metrics
+
+The performance of the model was evaluated using standard metric for image captioning tasks, the BLEU scores. Below are the results:
+
+- **BLEU-1:** 44
+- **BLEU-2:** 22
+- **BLEU-4:** 9
+
+These metrics indicate the effectiveness of the caption generator in producing relevant and accurate captions.
+
 
 <!-- LICENSE -->
 ## License
